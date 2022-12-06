@@ -1,0 +1,697 @@
+/*Auxiliaries*/
+body{
+  align-items: center;
+  margin: 0;
+}
+:root {
+  --color-greenaqua: #38af90;
+  --color-pink: #dd7e92;
+  --color-white: #f0f0f0;
+  --color-gray: #797979;
+  --color-wheitemais: #ffffff;
+  --color-bodyy: #e5e5e5;
+  --color-button-radio: #999999;
+  --color-footer: #383838;
+}
+
+.fonte {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+}
+.fonte-main {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: flex;
+}
+
+hr {
+  width: 275.76px;
+  height: 3px;
+  margin-top: -7px;
+  margin-left: 10px;
+  border: 1px solid var(--color-greenaqua);
+}
+
+.link-to-read {
+  width: 272px;
+  height: 21px;
+  font-size: 14px;
+
+  color: var(--color-pink);
+}
+
+.img-sections-games {
+  width: 300px;
+  height: 168.54px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.rectangle-games-white {
+  width: 300px;
+  height: 326px;
+  margin-top: -85px;
+  margin-bottom: 116px;
+  box-shadow: 0px 4px 20px;
+  background: var(--color-wheitemais);
+  border-radius: 8px;
+}
+
+.rectangle-gray {
+  width: 320px;
+  height: 1176px;
+  margin: 130px 0 0 10px;
+
+  background: var(--color-white);
+}
+.rectangle-placeholder {
+  width: 280px;
+  height: 50px;
+  background: var(--color-wheitemais);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin: 30px 0 0 15px;
+  border-radius: 8px;
+}
+
+.title-img-games {
+  width: 220px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+
+  color: var(--color-gray);
+}
+
+.linkstyle-games {
+  width: 207px;
+  height: 21px;
+  font-size: 14px;
+}
+
+.palavra-outra-cor {
+  margin-left: 40px;
+
+  color: var(--color-greenaqua);
+}
+
+.title-evaluation {
+  width: 52px;
+  height: 54px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0 124px 115px;
+  color: var(--color-greenaqua);
+}
+/*Header*/
+
+header {
+  background: var(--color-greenaqua);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: var(--color-wheitemais);
+  margin: 0 10px 0 0;
+}
+.title-header {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  color: var(--color-wheitemais);
+}
+.DS-mabol {
+  width: 131px;
+  height: 27px;
+  margin: 32px 10px 31px 20px;
+  color: var(--color-wheitemais);
+}
+.list {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px;
+  display: none;
+  list-style-type: none;
+  color: var(--color-wheitemais);
+}
+
+.avatar {
+  width: 62px;
+  height: 62px;
+  margin-left: 75px;
+  border-radius: 75px;
+}
+.nav-container {
+  width: 320px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+/*main*/
+
+.titlemain {
+  width: 202px;
+  height: 36px;
+  font-size: 24px;
+  margin: 40px 60px 100px 55px;
+  text-align: center;
+
+  color: var(--color-gray);
+}
+.rectangle-1 {
+  width: 300px;
+  height: 422px;
+  margin: -94px 0 0 10px;
+  align-items: center;
+  text-align: left;
+  background: var(--color-white);
+  border-radius: 8px;
+}
+
+.rectangle-2 {
+  width: 300px;
+  height: 425px;
+  margin: 20px 0 20px 10px;
+  align-items: center;
+  text-align: left;
+  background: var(--color-white);
+  border-radius: 8px;
+}
+.title-news {
+  width: 275px;
+  height: 24px;
+  font-size: 16px;
+
+  padding: 10px;
+  color: var(--color-greenaqua);
+}
+.title-div-news {
+  width: 274.85px;
+  height: 54px;
+  font-size: 12px;
+  margin: 4px 0 0 10px;
+
+  color: var(--color-gray);
+}
+
+.date {
+  width: 274.85px;
+  height: 15px;
+  margin: -10px 0 12px 10px;
+
+  color: var(--color-greenaqua);
+}
+.news {
+  width: 276px;
+  height: 329px;
+  margin: 12px 12px 33px 10px;
+  align-items: center;
+  text-align: left;
+  color: var(--color-gray);
+}
+.button-load {
+  width: 244px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -20px;
+  background: var(--color-pink);
+  border-radius: 8px;
+}
+.letter {
+  width: 135px;
+  height: 27px;
+  font-size: 18px;
+  margin-left: 60px;
+  color: var(--color-wheitemais);
+}
+
+/*section - 2 */
+
+.title-games {
+  width: 75px;
+  height: 36px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 28px 160px 118px;
+  padding-top: 30px;
+  color: var(--color-greenaqua);
+}
+/*section-inscrição*/
+.rectangle-plataforma {
+  width: 300px;
+  height: 603px;
+  margin-left: 10px;
+  background: var(--color-white);
+  border-radius: 8px;
+}
+
+.inscrição {
+  width: 231px;
+  height: 36px;
+  font-size: 24px;
+  margin: 10px 0 40px 30px;
+  padding-top: 30px;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.qual {
+  width: 253px;
+  height: 24px;
+  margin: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
+
+  color: var(--color-gray);
+}
+
+.radio {
+  width: 23px;
+  height: 23px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: var(--color-wheitemais);
+  border-radius: 50%;
+  border: 1px solid var(--color-button-radio);
+  box-sizing: border-box;
+}
+
+.pc {
+  width: 22px;
+  height: 24px;
+  margin-top: -22px;
+  margin-left: 38px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.xbox {
+  width: 39px;
+  height: 24px;
+  margin-left: 17px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.play {
+  width: 89px;
+  height: 24px;
+  margin-top: -22px;
+  margin-left: 38px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.check {
+  width: 23px;
+  height: 23px;
+  margin-top: 30px;
+
+  margin-left: 10px;
+  background: var(--color-wheitemais);
+  border: 1px solid var(--color-button-radio);
+}
+.deseja {
+  width: 212px;
+  height: 24px;
+  margin-top: -30px;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.enviar-button {
+  width: 244px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  background: var(--color-pink);
+  border-radius: 8px;
+}
+.limpar-button {
+  width: 244px;
+  height: 67px;
+  display: flex;
+  appearance: none;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: 2px solid var(--color-pink);
+  box-sizing: border-box;
+  background: var(--color-wheitemais);
+  border-radius: 8px;
+}
+.limpar {
+  width: 66px;
+  height: 27px;
+
+  font-size: 18px;
+
+  margin-left: 93px;
+
+  color: var(--color-pink);
+}
+.letter-enviar {
+  width: 135px;
+  height: 27px;
+  font-size: 18px;
+
+  margin-left: 93px;
+  color: var(--color-wheitemais);
+}
+
+/*footer*/
+
+footer {
+  width: 305px;
+  height: 302px;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 7px;
+  background: var(--color-footer);
+}
+
+.footer-aligin {
+  align-items: center;
+}
+footer a {
+  margin-bottom: 20px;
+  color: var(--color-wheitemais);
+}
+.ds-insta {
+  width: 111px;
+  height: 29.84px;
+  padding: 20px;
+  margin-left: 78px;
+}
+.ds-twitter {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 103px;
+}
+.ds-todos {
+  width: 250px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+  align-items: center;
+}
+.sep-footer{
+ margin-top: -30px;
+  margin-left: 45px;
+  color: var(--color-wheitemais);
+}
+.politicas {
+  width: 161px;
+  height: 29.84px;
+  margin-top: 45px;
+  margin-left: 70px;
+}
+.termos {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 85px;
+}
+
+.footer-aligin {
+  align-items: center;
+}
+footer a {
+  margin-bottom: 20px;
+  color: var(--color-wheitemais);
+}
+.ds-insta {
+  width: 111px;
+  height: 29.84px;
+  padding: 20px;
+  margin-left: 78px;
+}
+.ds-twitter {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 103px;
+}
+.ds-todos {
+  width: 250px;
+  height: 50px;
+  margin-left: 42px;
+  margin-top: 50px;
+  align-items: center;
+}
+.politicas {
+  width: 161px;
+  height: 29.84px;
+  margin-top: 45px;
+  margin-left: 70px;
+}
+.termos {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 85px;
+}
+
+@media (min-width: 576px) {
+
+  .DS-mabol {
+    width: 174px;
+    height: 36px;
+    font-size: 24px;
+    margin: 27px 10px 27px 105px;
+    color: var(--color-wheitemais);
+  }
+  .fonte-list {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-wheitemais);
+  }
+
+  .list {
+    margin: 8px 0 0 0;
+    display: flex;
+  }
+
+  .news-list {
+    width: 57px;
+    height: 21px;
+
+    display: flex;
+    align-items: center;
+  }
+  .games-list {
+    width: 43px;
+    height: 21px;
+
+    display: flex;
+  }
+  .sign-up-list {
+    width: 85px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+  }
+  .sep {
+    width: 85px;
+    height: 21px;
+    margin-left: 1px;
+  }
+
+  .avatar {
+    margin-left: 20px;
+  }
+  .rectangle-1 {
+    margin-left: 95px;
+    width: 990px;
+    height: 247px;
+  }
+  .rectangle-2 {
+    margin-left: 95px;
+    width: 990px;
+    height: 247px;
+  }
+  .titlemain {
+    width: 302px;
+    height: 54px;
+    font-size: 36px;
+    margin: 40px 60px 100px 460px;
+  }
+  .title-div-news {
+    width: 907px;
+    height: 24px;
+    font-size: 16px;
+  }
+  .title-news {
+    width: 316px;
+    height: 36px;
+  }
+  .news {
+    width: 909px;
+    height: 92px;
+    font-size: 10px;
+  }
+  hr {
+   margin-top: 1px;
+    width:910px;
+  }
+  .button-load {
+    margin-top: 100px;
+    margin-left: 350px;
+  }
+  .rectangle-gray {
+    width: 1200px;
+    height: 559px;
+    
+  }
+
+  .rectangle-games-white1 {
+    margin: -70px 0 0 120px;
+  }
+
+  .rectangle-games-white2 {
+    margin: -325px 0 0 450px;
+  }
+  .rectangle-games-white3 {
+    margin: -327px 0 0 780px;
+  }
+
+  .title-games {
+    width: 112px;
+    height: 54px;
+    font-size: 36px;
+    margin-left: 500px;
+  }
+  .inscrição {
+    width: 347px;
+    height: 54px;
+    margin: 10px 0 40px 420px;
+    font-size: 36px;
+  }
+  .rectangle-plataforma {
+    width: 790px;
+    height: 522px;
+    margin-left: 200px;
+  }
+  .rectangle-placeholder {
+    width: 642px;
+    height: 50px;
+    margin-left: 70px;
+  }
+  .qual {
+    margin-left: 60px;
+  }
+  .radio {
+    margin-left: 60px;
+  }
+
+  .pc {
+    margin-left: 90px;
+  }
+  .xbox {
+    margin-left: -30px;
+  }
+  .play {
+    margin-left: 90px;
+
+    color: var(--color-gray);
+  }
+  .check {
+    margin-left: 60px;
+  }
+  .deseja {
+    margin-left: 90px;
+  }
+  .enviar-button {
+    margin-left: 90px;
+  }
+  .limpar-button {
+    margin-left: 370px;
+    margin-top: -66px;
+  }
+  .limpar {
+    width: 66px;
+    height: 27px;
+
+    font-size: 18px;
+
+    margin-left: 93px;
+
+    color: var(--color-pink);
+  }
+  footer {
+    width: 1200px;
+    height: 190px;
+    display: flex;
+    
+  }
+  .ds-insta {
+    width: 111px;
+    height: 21px;
+    padding:  90px;
+    margin-left: 78px;
+  }
+  .ds-twitter {
+    width: 104px;
+    height: 21px;
+    margin-top: -90px;
+    margin-left: 168px;
+  }
+  .ds-todos {
+    width: 326px;
+    height: 21px;
+    margin-left: 390px;
+    margin-top: -60px;
+    color: var(--color-wheitemais);
+    
+  }
+  .sep-footer{
+    margin-top: -43px;
+     margin-left: 640px;
+    
+   }
+  .politicas {
+    width: 161px;
+    height: 21px;
+    margin-top: -60px;
+    margin-left: 900px;
+  }
+  .termos {
+    width: 104px;
+    height: 21px;
+    margin-top: -17px;
+    margin-left: 923px;
+  }
+}
