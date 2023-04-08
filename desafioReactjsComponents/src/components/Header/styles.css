@@ -1,0 +1,21 @@
+nav {
+    height: 70px;
+    align-items: center;
+    background-color: var(--color-bg-primary);
+    display: flex;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav h1 {
+    color: var(--color-font-primary);
+    font-size: 20px;
+}
+
+@media (min-width:576px) {
+    nav h1 {
+        font-size: 24px;
+        padding: 17px;
+    }
+}

@@ -1,0 +1,27 @@
+.container-footer {
+    align-items: center;
+    color: var(--color-font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 35px;
+
+}
+
+.endereco {
+
+    margin-top: 10px;
+}
+
+@media (min-width:576px) {
+    .container-footer {
+        display: flex;
+
+        justify-content: space-between;
+
+    }
+
+    .endereco {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,37 @@
+.sectionCardsOne {
+    background-color: var(--color-bg-secundary);
+    box-sizing: border-box;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    margin: 12.5px 20px 25px 20px;
+    text-align: center;
+
+}
+
+.sectionCardsOne img {
+    width: 260px;
+    height: 194px;
+    background-color: var(--color-bg-secundary);
+    border-radius: 10px;
+}
+
+
+.sectionCardsOne p {
+    font-size: 16px;
+    height: 24px;
+    color: var(--color-font-secundary);
+    font-weight: 700;
+    margin: 12px;
+}
+
+@media (min-width:576px) {
+
+    .sectionCardsOne img {
+        width: 391px;
+        height: 292px;
+    }
+
+    .sectionCardsOne p {
+        font-size: 20px;
+    }
+}
